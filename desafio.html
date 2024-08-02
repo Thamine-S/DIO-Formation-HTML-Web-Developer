@@ -1,0 +1,252 @@
+ <html>
+    <head>
+        <title> Projeto DIO - HTML na Prática</title>
+    </head>
+    <body>
+        <h1 style="text-align: center; background-color:rgba(250, 103, 30, 0.537)"> Introdução ao HTML </h1>
+        <header style="border-color:black; border-style:dashed; border-width:1px">
+            <h2 style="text-align: center;">Índice</h2>
+            <div style="display: flex;">
+            <div>
+            <ul>
+                <li><a href="#surgimento">Surgimento da Internet</a></li>
+                <ul>
+                    <li><a href="#computadores">Primeiros Computadores</a></li>
+                    <li><a href="#Nomes">Nomes importantes da História</a></li>
+                    <li><a href="#CeS">Client e Server</a></li>
+                </ul>
+            </div>
+            <div>
+            <ul>
+                <li><a href="#HTML">O que é HTML?</a></li>
+                <ul>
+                    <li><a href="#Tags">O que são Tags?</a></li>
+                    <li><a href="#Att">O que são Atributos?</a></li>
+                </ul> 
+            </ul>
+            </div>
+            <div>
+            <ul>
+                <li><a href="#">Arquitetura básica de uma página HTML</a></li>
+                <li><a href="#">Estruturas</a></li>
+                <ul>
+                    <li><a href="#">Listas</a></li>
+                    <li><a href="#">Imagens</a></li>
+                    <li><a href="#">Tabelas</a></li>
+                </ul>
+            </ul>
+        </div>
+        </div>
+        </header>
+        <h2 style="text-align: center; border-style: solid; border-width: 1px; border-color:rgb(231, 125, 44)" id="surgimento">Surgimento da Internet</h2>
+        <p style="text-align: justify">O surgimento da internet, como a conhecemos hoje, está ligada ao desenvolvimento dos primeiros computadores.
+        Inicialmente, esses computadores eram grandes e caros, sendo utilizados principalmente em instituições de pesquisa e
+        militares. Com o tempo, eles se tornaram mais acessíveis e utilizados em diversas áreas, surgindo a necessidade de
+        conectar essas máquinas para compartilhar informações e recursos.</p>
+        <h3 style="background-color:rgba(250, 103, 30, 0.537)" id="computadores">Primeiros Computadores</h3>
+        <div style="display: flex;">
+            <div style="align-items: left;">
+                <img src="Eniac.png" alt="Imagem do ENIAC" height="250" width="300">
+            </div>
+            <div style="align-items: right; margin-left: 10px;" >
+                <h4>ENIAC</h4>
+                <p style="background-color:rgba(255, 60, 0, 0.177)">Também conhecido como Electronic Numerical Integrator And Computer, Desenvolvido a pedido do exército dos Estados Unidos para seu laboratório de pesquisa balística, o ENIAC
+                pesava 30 toneladas e ocupava uma área de 180 m² de área construída. Já seu “sistema operacional” eram cartões perfurado operados por um time de funcionárias do exército, o que
+                as classifica como as primeiras programadoras que se tem notícia. Sua construção de iniciou em plena guerra, em 1943.
+                Apesar mostrado em 1946, só foi ser ligado pela primeira vez em julho de 47.</p>
+            </div>
+        </div>
+        <div style="display: flex; margin-top:10px">
+            <div style="align-items: left;">
+                <img src="colossus.png" alt="Imagem do Colossus" height="250" width="300">
+            </div>
+            <div style="align-items: right; margin-left: 10px;">
+                <h4>Colossus</h4>
+                <p style="background-color:rgba(255, 60, 0, 0.177)"> Criado em janeiro de 1944, e tinha uma função nobre: decodificar mensagens trocadas entre
+                soldados nazistas, permitindo que os Aliados antecipassem e neutralizassem os movimentos inimigos. O Colossus é uma máquina formada por oito grandes “gabinetes” de 2,3 metros de altura, divididas em duas seções de 5,5
+                metros de comprimento.</p>
+            </div>
+        </div>
+        <div style="display: flex; margin-top:10px">
+            <div style="align-items: left;">
+                <img src="markI.png" alt="Imagem do Harvard Mark I" height="250" width="300">
+            </div>
+            <div style="align-items: right; margin-left: 10px;">
+                <h4>Harvard Mark I</h4>
+                <p style="background-color:rgba(255, 60, 0, 0.177)">Composto de 750mil peças, entre chaves, relés e engrenagens, além de 800km de fios, tinha 15,5m de comprimento, 2,4m de altura e pesava 5 toneladas.
+                Mesmo com todo este tamanho, este “elefante” era capaz de realizar somas em 0,3s e multiplicações em 1s
+                Era um sistema eletromecânico (baseado em relés) que mesclava a tecnologia de cartões perfurados (que a IBM dominava) e
+                alguns circuitos eletrônicos simples, mas que já nasceu obsoleto quando concluído.
+                Isso porque o ENIAC, que era totalmente eletrônico, já estava sendo construído quando o ASCC entrou em operação.
+                Mesmo baseado em uma tecnologia já relativamente ultrapassada para sua época, visto que os computadores eletrônicos
+                (baseados em válvulas) eram centenas de vezes mais rápidos, sua confiabilidade e precisão de cálculos fizeram com que
+                funcionasse por quase 16 anos sem interrupção.</p>
+            </div>
+        </div>
+        <div style="display: inline; margin: top 10px;">
+        <h3 style="background-color:rgba(250, 103, 30, 0.537)" id="Nomes">Nomes importantes da História</h3>
+        </div>
+        <div style="display: flex; margin-top:10px">
+                    <div style="align-items: left;">
+                        <img src="Grace.png" alt="Imagem da Grace Murray Hopper" height="400" width="350">
+                    </div>
+                    <div style="align-items: right; margin-left: 10px; background-color:rgba(255, 64, 0, 0.322)">
+                        <h4 style="text-align: center;">Grace Murray Hopper</h4>
+                        <p style="background-color:rgb(255, 255, 255); margin: 5px; text-align:justify">Grace Murray Hopper foi almirante e
+                        analista de sistemas da Marinha dos Estados Unidos nas décadas de 1940 e 1950, criadora da linguagem de programação de
+                        alto nível Flow-Matic — base para a criação do COBOL — e uma das primeiras programadoras do computador
+                        Harvard Mark I em 1944.</p>
+                        <p style="background-color:rgb(255, 255, 255); margin: 5px; text-align:justify">Em 1949, ela passou a participar do Eckert-Mauchly Computer Corporation e fez parte do time que desenvolveu o computador
+                        UNIVAC I. Enquanto estava no Eckert-Mauchly, começou o desenvolvimento do seu compilador. O programa dela convertia
+                        termos em Inglês para código de máquina e em 1952, tinha terminado o desenvolvimento do seu programa ligador
+                        (originalmente chamado de compilador), o qual foi desenvolvido para o Sistema A-0. A concepção de Hopper de que havia a necessidade de se criar uma linguagem orientada para negócios comuns deu origem ao
+                        acrônimo COBOL (Common Business Oriented Language). </p>
+                    </div>
+        </div>
+        <div style="display: flex; margin-top: 10px">
+        <div style="align-items: left;">
+            <img src="joseph.png" alt="Imagem do Joseph Carls Robnett Licklider" height="250">
+        </div>
+        <div style="align-items: right; margin-left: 10px; background-color:rgba(255, 64, 0, 0.322)">
+            <h4 style="text-align: center;">Joseph Carls Robnett Licklider</h4>
+            <p style="background-color:rgb(255, 255, 255); margin: 5px;">Nascido em Saint Louis, no Missouri em 1915, Joseph Carl Robnett Licklider foi um grande estudioso, cursando três
+            graduações na Washington State University.Licklider buscava solucionar o problema de comunicação que os tripulantes sofriam nos barulhentos bombardeiros.Licklider percebeu que os computadores poderiam ser mais eficientes, trabalhar na SAGE lhe mostrou que computadores
+            deveriam ser dinâmicos para que se tornassem realmente úteis. Então, em 1960 publicou sua obra Man Computer Symbiosis, a
+            ideia era flexibilizar programas permitindo que homens e máquinas cooperem na construção de soluções.</p>
+        </div>
+    </div>
+            <div style="display: flex; margin-top: 10px">
+                <div style="align-items: left;">
+                    <img src="Robert.png" alt="Imagem do Robert E. Kahn" height="300" >
+                </div>
+                <div style="align-items: right; margin-left: 10px; background-color:rgba(255, 64, 0, 0.322)">
+                    <h4 style="text-align: center;">Robert E. Kahn</h4>
+                    <p style="background-color:rgb(255, 255, 255); margin: 5px;">Em meados da década de 1960, Robert Kahn começou a pensar em como os computadores com diferentes sistemas operativos
+                    poderiam falar uns com os outros através de uma rede. No entanto, ele não pensou muito sobre o que eles diriam uns aos
+                    outros.É por este trabalho em tecnologias de comunicação por pacotes - como parte do projeto que se tornou a ARPANET e nas
+                    fundações da Internet - que Kahn está a ser galardoado com a Medalha de Honra do IEEE de 2024.</p>
+                </div>
+            </div>
+            <div style="display: flex; margin-top: 10px">
+                <div style="align-items: left;">
+                    <img src="tim.png" alt="Imagem do Tim Berners-Lee" height="300">
+                </div>
+                <div style="align-items: right; margin-left: 10px; background-color:rgba(255, 64, 0, 0.322)">
+                    <h4 style="text-align: center;">Tim Berners-Lee</h4>
+                    <p style="background-color:rgb(255, 255, 255); margin: 5px;"></p>
+                </div>
+            </div>
+            <div style="display: flex; margin-top: 10px">
+                <div style="align-items: left;">
+                    <img src="marc.png" alt="Imagem do Marc Anderssen" height="300">
+                </div>
+                <div style="align-items: right; margin-left: 10px; background-color:rgba(255, 64, 0, 0.322)">
+                    <h4 style="text-align: center;">Marc Anderssen</h4>
+                    <p style="background-color:rgb(255, 255, 255); margin: 5px;"></p>
+                </div>
+            </div>
+            <div style="display: flex; margin-top: 10px">
+                <div style="align-items: left;">
+                    <img src="bill.png" alt="Imagem do Bill Gates" height="300">
+                </div>
+                <div style="align-items: right; margin-left: 10px; background-color:rgba(255, 64, 0, 0.322)">
+                    <h4 style="text-align: center;">Bill Gates</h4>
+                    <p style="background-color:rgb(255, 255, 255); margin: 5px;"></p>
+                </div>
+            </div>
+        <div>
+                    <h3 style="background-color:rgba(250, 103, 30, 0.537)" id="CeS">Client e Server</h3>
+                    <p style="text-align: justify;">A internet funciona como uma grande rede de computadores, cada um com um papel específico. Nesse cenário, a relação
+                    entre cliente e servidor é fundamental. Podemos imaginar o servidor como um restaurante e o cliente como um freguês.
+                    
+                    O cliente é o dispositivo que solicita um serviço, como um navegador web acessando um site. Ao fazer uma solicitação, o
+                    cliente envia uma mensagem para o servidor. O servidor, por sua vez, é um computador poderoso que armazena informações e
+                    oferece serviços. Ele recebe a solicitação do cliente, processa a informação e envia uma resposta, como a página da web
+                    solicitada.</p>
+        </div>
+        <div>
+        <h2 style="text-align: center; border-style: solid; border-width: 1px; border-color:rgb(231, 125, 44)" id="HTML">O que é HTML?</h2>
+        <p style="text-align: justify;">HTML, sigla para HyperText Markup Language (Linguagem de Marcação de Hipertexto), é a linguagem fundamental para a
+        construção de páginas web. É como se fosse o esqueleto de um site, definindo a estrutura e o conteúdo de cada página.
+        
+        Imagine o HTML como um conjunto de blocos de construção. Cada bloco representa um elemento da página, como um parágrafo,
+        uma imagem, um título ou um link. Esses elementos são definidos por tags, que são palavras-chave encerradas entre sinais
+        de menor e maior (< >). Ao combinar essas tags, você cria a estrutura básica de uma página web que pode ser interpretada
+            e exibida por navegadores como Chrome, Firefox ou Edge.</p>
+        </div>
+        <h3 style="background-color:rgba(250, 103, 30, 0.537)" id="Tags">O que são Tags?</h3>
+        <p style="text-align: justify;">As tags HTML são como as peças de um quebra-cabeça que compõem as páginas da web. Elas são instruções que informam ao
+        navegador como interpretar e exibir o conteúdo de uma página. Cada tag possui um significado específico e determina a
+        estrutura e a formatação dos elementos que compõem a página.
+        
+        Imagine que você está construindo uma casa. As tags HTML seriam os tijolos, as vigas e as telhas que formam a estrutura
+        da casa. Elas definem onde ficam as paredes, as portas, as janelas e tudo mais que compõe o ambiente. No caso das
+        páginas da web, as tags definem onde fica o título, os parágrafos, as imagens, os links e outros elementos que você vê
+        ao acessar um site.</p>
+        <p> A baixo segue uma tabela com as principais Tags do HTML:</p>
+        <div style="display: flex;">
+        <div style="align-items:center">
+            <table style="border:solid; border-color:antiquewhite;">
+            <tr>
+                <td style="background-color: rgba(225, 56, 41, 0.737); color: white; text-align: center">Tag</td>
+                <td style="background-color: rgba(225, 56, 41, 0.737);color: white; text-align: center">Significado</td>
+                <td style="background-color: rgba(225, 56, 41, 0.737);color: white; text-align: center">Função</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;"> HTML </td>
+                <td>Ela indica ao navegador que o documento que está sendo processado é um documento HTML</td>
+                <td>Define o início e o fim de um documento HTML</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(236, 236, 236); text-align:center">Head</td>
+                <td style="background-color: rgb(236, 236, 236);">Contém informações importantes sobre o documento HTML, mas não é exibida diretamente no navegador.</td>
+                <td style="background-color: rgb(236, 236, 236);">Um local onde se armazena metadados</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">Body</td>
+                <td>Tudo o que o usuário vê ao acessar uma página está contido dentro da tag</td>
+                <td>Contém o conteúdo visível da página.</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(236, 236, 236); text-align:center">Title</td>
+                <td style="background-color: rgb(236, 236, 236);">É como um título para sua página na web</td>
+                <td style="background-color: rgb(236, 236, 236);">Ela define o título que aparece na aba do navegador e nos resultados de busca</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">a</td>
+                <td>Fundamental para criar links</td>
+                <td>Ela define um âncora (anchor), que é um elemento clicável que leva o usuário para outra página/seção da
+                mesma página ou para um arquivo externo.</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(236, 236, 236); text-align: center;">p</td>
+                <td style="background-color: rgb(236, 236, 236);">Inicia um parágrafo</td>
+                <td style="background-color: rgb(236, 236, 236);">Serve para definir um parágrafo de texto</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">br</td>
+                <td>Permite que você force o texto a pular para a próxima linha, exatamente onde você a colocar</td>
+                <td>Serve para inserir uma quebra de linha dentro de um texto</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(236, 236, 236); text-align: center;">hr</td>
+                <td style="background-color: rgb(236, 236, 236);">representa uma quebra temática entre elementos de nível de parágrafo</td>
+                <td style="background-color: rgb(236, 236, 236);">Serve para criar uma linha horizontal que separa diferentes seções ou tópicos dentro de uma página.</td>
+            </tr>
+            <tr>
+                <td style="text-align: center;">h1/h2/h3...</td>
+                <td>São utilizadas para definir os títulos e subtítulos de uma página web</td>
+                <td>Estabelecem uma hierarquia de importância para o conteúdo, facilitando a leitura e a compreensão por parte dos usuários
+                e dos mecanismos de busca.</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(236, 236, 236); text-align: center;">div</td>
+                <td style="background-color: rgb(236, 236, 236);">É como um contêiner genérico</td>
+                <td style="background-color: rgb(236, 236, 236);">A principal função da tag é agrupar elementos HTML para que você possa aplicar estilos a eles de forma conjunta usando
+                    CSS</td>
+            </tr>
+            </table>
+        </div>
+        </div>
+    </body>
+ </html>
