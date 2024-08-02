@@ -2,7 +2,9 @@
 ![Header](https://github.com/user-attachments/assets/c57f7bb4-5d9f-4cab-bf23-28d99e4b4fc2)
 ![Visão Geral](https://github.com/user-attachments/assets/2fd6bc15-6a1f-4a78-8950-e72f5f104406)
 ![Projetos](https://github.com/user-attachments/assets/4519e46a-29b4-4c3f-885d-bce37ddf08cf)
+### Página HTML
+[Instruções]() <br>
+[Código do projeto]()
+<br>
+
 ![Ferramentas](https://github.com/user-attachments/assets/d9730b7f-1000-499b-8cdd-aa936d840d1b)
-
-[![Certificações](https://github.com/user-attachments/assets/f17475af-671f-4bb8-91fc-daa397add2a4)]()
-
