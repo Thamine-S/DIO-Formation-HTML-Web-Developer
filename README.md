@@ -3,8 +3,8 @@
 ![Visão Geral](https://github.com/user-attachments/assets/2fd6bc15-6a1f-4a78-8950-e72f5f104406)
 ![Projetos](https://github.com/user-attachments/assets/4519e46a-29b4-4c3f-885d-bce37ddf08cf)
 ### Página HTML
-[Instruções]() <br>
-[Código do projeto]()
+[Instruções](https://github.com/Thamine-S/DIO-Formation-HTML-Web-Developer/blob/main/Instruções.md) <br>
+[Código do projeto](https://github.com/Thamine-S/DIO-Formation-HTML-Web-Developer/blob/main/desafio.html)
 <br>
 
 ![Ferramentas](https://github.com/user-attachments/assets/d9730b7f-1000-499b-8cdd-aa936d840d1b)
