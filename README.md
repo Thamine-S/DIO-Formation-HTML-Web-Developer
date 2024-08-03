@@ -15,3 +15,4 @@ O desafio propõe a criação de uma página html abordando conceitos básicos a
 ![Ferramentas](https://github.com/user-attachments/assets/d9730b7f-1000-499b-8cdd-aa936d840d1b)
 ![Visual Studio](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
