@@ -6,7 +6,8 @@ Esta formação proporcionou o domínio das estruturas básicas de páginas web,
 
 ![Projetos](https://github.com/user-attachments/assets/4519e46a-29b4-4c3f-885d-bce37ddf08cf)
 ### Criação de uma Página HTML
-O desafio propõe a criação de uma página html abordando conceitos básicos aprendidos no curso.
+O desafio propõe a criação de uma página html abordando conceitos básicos aprendidos no curso. 
+<br>
 [Instruções](https://github.com/Thamine-S/DIO-Formation-HTML-Web-Developer/blob/main/Instruções.md) <br>
 [Código do projeto](https://github.com/Thamine-S/DIO-Formation-HTML-Web-Developer/blob/main/desafio.html)
 <br>
